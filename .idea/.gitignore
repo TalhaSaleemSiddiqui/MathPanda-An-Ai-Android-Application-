@@ -1,0 +1,6 @@
+# ignored files
+/shelf/
+/workspace.xml
+app/google-services.json
+build/
+local.properties
