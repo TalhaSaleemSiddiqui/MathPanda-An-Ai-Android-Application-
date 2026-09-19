@@ -57,7 +57,7 @@ The project has two parts:
 - 🐼 **Friendly Tutor Personality**: "MathPanda" keeps explanations fun and encouraging.
 - 🔐 **User Accounts**: Sign up and log in to get your own personal space in the app.
 - 🕘 **Session History**: Review your previous tutoring sessions and open any session to see its details.
-- 👤 **Profile Screen**: View and manage your account information.
+- 👤 **Profile Screen**: View your account information.
 - 🛡️ **Graceful Error Handling**: If the AI fails or returns an invalid response, the backend sends a friendly fallback message (with audio) instead of crashing.
 - 🌐 **Simple REST API**: A single `/tutor` endpoint that is easy to test and extend.
 
@@ -67,9 +67,9 @@ The project has two parts:
 
 <div align="center">
 
-| Sign Up | Log In | Home | MathPanda AI Tutor |
-|:---:|:---:|:---:|:---:|
-| <img src="images/Signup.jpeg" alt="Sign Up Screen" width="200"/> | <img src="images/Log%20in.jpeg" alt="Log In Screen" width="200"/> | <img src="images/Home%20Screen.png" alt="Home Screen" width="200"/> | <img src="images/MathPanda%20AI%20Tutor.jpg" alt="MathPanda AI Tutor Screen" width="200"/> |
+| Sign Up | Log In | Home |
+|:---:|:---:|:---:|
+| <img src="images/Signup.jpeg" alt="Sign Up Screen" width="200"/> | <img src="images/Log%20in.jpeg" alt="Log In Screen" width="200"/> | <img src="images/Home%20Screen.png" alt="Home Screen" width="200"/> |
 
 | MathPanda AI Tutor | History | Session Details | 
 |:---:|:---:|:---:|
@@ -216,7 +216,7 @@ MathPanda-An-Ai-Android-Application-/
 **a) Clone the repository**
 
 ```bash
-git clone https://github.com/TalhaSaleemSiddiqui/MathPanda-An-Ai-Android-Application-.git
+git clone <project-repositry-link>
 cd MathPanda-An-Ai-Android-Application-
 ```
 
@@ -246,7 +246,6 @@ Open `basictesting.py` and replace the placeholder:
 MY_API_KEY = "Enter_Your_Gemini_key"
 ```
 
-with your real key. *(See [Security Notes](#-security-notes) for a safer way using environment variables.)*
 
 **e) Run the server**
 
@@ -411,6 +410,6 @@ curl -X POST http://localhost:8080/tutor \
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This repository is intended for academic project use. Add the preferred license for the repository before making it public.
 
 ---
